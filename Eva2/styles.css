@@ -1,0 +1,246 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(imagenes/73621-OE563I-753.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.body3 {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(imagenes/luces-neon-degradadas-abstractas.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header {
+    background-color: #2C2435;
+    color: #fff;
+    padding: 30px;
+    border: 5px solid rgb(184, 19, 199);
+    border-style: groove;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+    
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #2C2435;
+    color: #fff;
+    text-align: right;
+    padding: 20px;
+    border: 5px solid rgb(184, 19, 199);
+    border-style: groove;
+}
+
+p {
+    color: #fff;
+}
+
+h2 {
+    color: #e60707;
+}
+
+#Inicio {
+    background-color: #2C2435;
+    padding: 60px;
+    text-align: center;
+    max-width: 450px;
+    margin: 0 auto;
+    border-radius: 45%;
+    border-color: #e60707;
+    border: 5px solid #e60707;
+    border-style:groove;
+    font-size: 20px;
+    display: block;
+}
+
+#Somos {
+    background-color: #2C2435;
+    padding: 20px;
+    text-align: center;
+    max-width: 400px;
+    margin: 0 auto;
+    border-radius: 10%;
+    border: 5px solid #e607ae;
+    border-style:groove;
+    font-size: 20px;
+}
+
+#Somos h2 {
+    color: #e607ae;
+}
+
+.treesimagenes {
+    display: flex;
+    justify-content: center;
+
+}
+.portada {
+    background-color: #2C2435;
+    text-align: center;
+    max-width: 600px;
+    padding: 15px;
+    border-radius: 10%;
+    margin: 0 auto;
+    border: 5px solid chartreuse;
+    border-style:groove;
+}
+
+.portada img {
+    max-width: 90%;
+    margin: 0 auto;
+    height: auto;
+    border-radius: 10%;
+    border: 5px solid chartreuse;
+    border-style: groove;
+}
+
+
+#Productos {
+    background-color: #2C2435;
+    padding: 20px;
+    max-width:300px;
+    text-align: center;
+    border-radius: 90%;
+    margin:0 auto;
+    border: 5px solid #e6c507;
+    border-style:groove;
+}
+
+#Productos h2 {
+    color: #e6c507;
+}
+
+table {
+    border: 5px solid #e6c507;
+    border-style:groove;
+}
+
+tr {
+    background-color: #2C2435;
+    text-align: center;
+    width: 250px;
+}
+
+td {
+    background-color: #2C2435;
+    text-align: center;
+    width: 250px;
+}
+
+a {
+    color: yellow;
+}
+
+.cajasde1{
+    display:flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+#Contacto{
+    background-color: #2C2435;
+    padding: 10px;
+    max-width: 40%;
+    border-radius: 15%;
+    border: 5px solid aqua;
+    border-style:groove;
+    color: #fff;
+    font-size: 15px;
+}
+
+#Contacto h2{
+    color: aqua;
+}
+
+#Contacto1 {
+    background-color: #2C2435;
+    padding: 10px;
+    max-width: 40%;
+    border-radius: 15%;
+    border: 5px solid orange;
+    border-style:groove;
+    color: #fff;
+    font-size: 15px;
+}
+
+#Contacto1 h2 {
+    color: orange;
+}
+
+.boton {
+    padding: 10px;
+    background-color: red; 
+    color: #fff;
+    border-radius: 10%;
+    float: right;
+}
+
+.Catalogo{
+    color: #fff;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #2C2435;
+}
+
+.Catalogo img {
+    max-width: 200px;
+}
+
+@media screen and (max-width: 580px) {
+    .portada img {
+        max-width: 90%;
+    }
+    
+    .Catalogo img {
+        max-width: 100%;
+    }
+    
+    #Inicio, #Somos, #Productos, #Contacto, #Contacto1 {
+        max-width: 90%;
+        margin: 0 auto;
+    }
+    
+    .cajasde1 {
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width: 581px) and (max-width: 900px) {
+    .portada img {
+        max-width: 80%;
+    }
+    
+    .Catalogo img {
+        max-width: 90%; 
+    }
+    
+    #Inicio, #Somos, #Productos, #Contacto, #Contacto1 {
+        max-width: 80%; 
+        margin: 0 auto; 
+    }
+    
+    .cajasde1 {
+        flex-direction: row; 
+    }
+}
